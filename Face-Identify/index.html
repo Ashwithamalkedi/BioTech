@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FaceID - Face Recognition System</title>
+    <!-- Add custom styles for animated transitions -->
+    <style>
+      @keyframes enter {
+        0% { transform: translateY(10px); opacity: 0; }
+        100% { transform: translateY(0); opacity: 1; }
+      }
+
+      @keyframes leave {
+        0% { transform: translateY(0); opacity: 1; }
+        100% { transform: translateY(10px); opacity: 0; }
+      }
+
+      .animate-enter {
+        animation: enter 0.3s ease forwards;
+      }
+
+      .animate-leave {
+        animation: leave 0.3s ease forwards;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
