@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<h2 class="fw-bold mb-4 text-center">Our Features</h2>
+<div class="row justify-content-center">
+  <div class="col-md-5 mb-4">
+    <div class="card shadow h-100 border-0">
+      <div class="card-body text-center">
+        <img src="[https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/fingerprint.svg"](https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/fingerprint.svg") alt="Fingerprint" width="70" class="mb-3">
+        <h5 class="card-title fw-bold">Fingerprint Recognition</h5>
+        <p class="card-text">Quickly identify individuals using advanced fingerprint scanning technology.</p>
+        <a href="[https://fingerprint.streamlit.app/"](https://fingerprint.streamlit.app/") target="_blank" class="btn btn-outline-primary">Try Fingerprint</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-5 mb-4">
+    <div class="card shadow h-100 border-0">
+      <div class="card-body text-center">
+        <img src="[https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/person-circle.svg"](https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/person-circle.svg") alt="Face Recognition" width="70" class="mb-3">
+        <h5 class="card-title fw-bold">Face Recognition</h5>
+        <p class="card-text">Identify people with the power of AI-driven face recognition.</p>
+        <a href="[https://face-gemini-identifier.lovable.app/identify-face"](https://face-gemini-identifier.lovable.app/identify-face") target="_blank" class="btn btn-outline-primary">Try Face Recognition</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
